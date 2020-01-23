@@ -1,0 +1,60 @@
+noStroke();
+textSize(25);
+
+var answer =floor(random(1, 9));
+
+if (answer===1) {
+    fill(77, 163, 168);
+    ellipse(200, 200, 375, 375);
+    fill(13, 13, 13);
+    text("YES", 170, 215);
+}
+
+else if (answer===2) {
+    fill(148, 21, 67);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("NO", 180, 215);
+}
+
+else if (answer===3) {
+    fill(235, 226, 124);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("TRY AGAIN",130,215);
+}
+
+else if (answer===4) {
+   fill(90, 90, 224);
+   ellipse(200, 200, 375, 375);
+   fill(10, 9, 9);
+   text("MAYBE",150,215);
+   
+}
+
+else if (answer===5) {
+    fill(171, 17, 60);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("NO WAY",150,215);
+}
+
+else if (answer===6) {
+    fill(247, 143, 247);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("ITS POSSIBLE",115,215);
+}
+else if (answer===7) {
+    fill(117, 92, 17);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("I CAN'T ANSWER THAT",69,215);
+}
+else {
+    fill(149, 175, 240);
+    ellipse(200, 200, 375, 375);
+    fill(10, 9, 9);
+    text("ASK YOURSELF",106,215);
+
+}
