@@ -1,0 +1,66 @@
+background(84, 65, 8); // wooden table
+fill(194, 45, 45);
+ellipse(200, 200, 350, 350); // plate
+fill(252, 234, 182);
+ellipse(200, 200, 300, 300); 
+
+//Watermelon
+fill(35, 87, 10);
+arc(177, 116, 127, 126, 1, 180);
+fill(240, 36, 36);
+arc(177, 118, 103, 97, 1, 180);
+strokeWeight(4);
+point(193, 125);
+strokeWeight(4);
+point(182, 143);
+strokeWeight(4);
+point(153, 136);
+strokeWeight(4);
+point(210, 136);
+strokeWeight(4);
+point(169, 132);
+strokeWeight(4);
+point(139, 125);
+noStroke();
+
+//grapes
+fill(183, 0, 255);
+ellipse(200, 250, 20, 20);
+ellipse(220, 250, 20, 20);
+ellipse(240, 250, 20, 20);
+ellipse(210, 270, 20, 20);
+ellipse(231, 270, 20, 20);
+ellipse(221, 288, 20, 20);
+fill(24, 112, 37);
+triangle(196, 200, 222, 209,218, 239);
+
+//Banana
+noStroke();
+fill(229, 237, 5);
+arc(189, 314, 99, 52, -1, 180);
+fill(252, 234, 182);
+ellipse(189, 313, 102, 23);
+fill(20, 19, 19);
+ellipse(144, 320, 11, 5);
+
+
+//Orange
+fill(255, 132, 0);
+ellipse(300, 200, 50, 50);
+fill(60, 181, 49);
+triangle(312, 169, 295, 193, 305, 155);
+
+//abacaxi
+fill(57, 153, 34);
+triangle(78, 153, 117, 234, 93, 226);
+triangle(114, 160, 115, 239, 95, 209);
+triangle(145, 179, 127, 234, 93, 214);
+fill(189, 189, 13);
+ellipse(107, 242, 56, 78);
+fill(122, 122, 10);
+rect(97, 229, 3, 8);
+rect(110, 243, 3, 8);
+rect(117, 213, 3, 8);
+rect(89, 249, 3, 8);
+rect(97, 260, 3, 8);
+rect(122, 229, 3, 8);
