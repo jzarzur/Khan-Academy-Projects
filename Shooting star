@@ -1,0 +1,103 @@
+//shooting star
+var xPos = 60;
+var yPos = 60;
+
+//tail
+var xPoint = 28;
+var yPoint = 28;
+
+//rain
+var xRain = 220;
+var yRain = 154;
+
+
+draw = function() {
+    
+    background(150, 162, 235);
+    
+    //cloud 1
+    fill(255, 250, 255);
+    ellipse(277, 110, 100, 83);
+    fill(255, 255, 255);
+    ellipse(210, 110, 60, 60);
+    fill(255, 255, 255);
+    ellipse(340, 110, 60, 60);
+    
+    //cloud 2
+    fill(255, 255, 255);
+    ellipse(50, 199, 60, 60);
+    fill(255, 255, 255);
+    ellipse(110, 200, 100, 83);
+    fill(255, 255, 255);
+    ellipse(170, 200, 60, 60);
+   
+    //shooting star tail
+    strokeWeight(7);
+    stroke(240, 202, 14);
+    point(xPoint, yPoint);
+    
+    strokeWeight(6);
+    stroke(240, 202, 14);
+    point(xPoint -10, yPoint - 10);
+    
+    strokeWeight(6);
+    stroke(240, 202, 14);
+    point(xPoint -20, yPoint - 20);
+    
+    //rain cloud 1
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain,yRain);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + 58,yRain +22);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + 112,yRain +7);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + 90,yRain +46);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + 24,yRain +32);
+    
+    //rain cloud 2
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain-66,yRain+145);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + -167,yRain +93);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + -90,yRain +100);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + -122,yRain +122);
+    strokeWeight(6);
+    stroke(67, 25, 232);
+    point(xRain + -49,yRain +93);
+    
+    //Shooting star
+    noStroke();
+    fill(255, 242, 0);
+    ellipse(xPos, yPos, 60, 60);
+    fill(240, 122, 216);
+    ellipse(xPos, yPos, 50, 50);
+    
+     //grama
+    fill(42, 219, 33);
+    rect(1,382, 401, 26);
+    
+    //animation shooting star
+    xPos +=1;
+    yPos +=1;
+    
+    xPoint +=1;
+    yPoint +=1;
+    
+    //animation rain
+    yRain++;
+    
+  
+};
